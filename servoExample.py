@@ -1,3 +1,8 @@
+# Example to use a servo with the raspberry pi pico
+# Pin 28 is attached to a pot that ranges from 0 - 3.3 volts
+# pin 15 is attached to the control line of the servo 
+
+
 from machine import Pin, PWM, ADC
 import utime
 
